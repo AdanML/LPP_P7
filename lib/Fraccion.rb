@@ -22,6 +22,8 @@ class Fraccion
       "#@num/#@denom"
    end
 
-   def 
+   def to_f
+      @num/@denom
+   end
 
 end
