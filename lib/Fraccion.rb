@@ -1,6 +1,7 @@
 
 class Fraccion
    attr_reader :num, :denom
+   include Comparable
    
    def mcd(x,y)
       y == 0 ? x: mcd(y, x%y)
