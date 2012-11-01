@@ -23,7 +23,13 @@ describe Fraccion do
       @obj1.num.should == 1 and @obj1.denom.should == 2
    end
 
-   
+   it "Se debe mostrar por la consola como una cadena a/b" do
+      @obj1.to_s.should == "1/2"
+   end
+
+   it "Se debe mostrar por la consola con decimal 0.5" do
+      @obj1.to_f.should == 0.5
+   end
 
 end
 
