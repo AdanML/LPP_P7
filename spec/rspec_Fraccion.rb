@@ -16,7 +16,7 @@ describe Fraccion do
    end
 
    it "Debe estar en su forma reducida" do
-      @obj2.num.should == 1
+      @obj2.num.should == 1 and @obj2.denom.should == 2
    end
 
 end
