@@ -19,6 +19,12 @@ describe Fraccion do
       @obj2.num.should == 1 and @obj2.denom.should == 2
    end
 
+   it "Se debe invocar a los metodos num () y denom()" do
+      @obj1.num.should == 1 and @obj1.denom.should == 2
+   end
+
+   
+
 end
 
 
